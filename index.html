@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon</title>
+  <script type = "text/javascript" src = "./pokemon.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "pokemon.css" />
+</head>
+<body>
+  <div class="contenedor-centrado">
+    <div class="game">
+      <div class="opponent">
+        <div class="stats">
+          <div class="top">
+            <div id = "apHP" class="hp-count">100</div>
+          </div>
+          <span class="name">
+            Charizard
+          </span>
+        </div>
+        <img class="pokemon" src="http://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif" alt ="A sprite of charizard" />
+      </div>
+      <div class="player">
+        <div class="stats">
+          <div class="top">
+            <div id = "myHP" class="hp-count">100</div>
+          </div>
+          <span class="name">
+            Blastoise
+          </span>
+        </div>
+        <img class="pokemon" src="http://bit.ly/blastoisegif" alt="A gif from blastoises back sprite" />
+      </div>
+    </div>
+    <div class="box">
+      <div id = "message" class="message">
+        Elije tu Siguiente Ataque
+      </div>
+      <div class="actions">
+        <button onclick = "waterCannon()">Cañon de Agua</button>
+        <button onclick = "waterPulse()">Hidropulso</button>
+        <button onclick = "surf()">Surf</button>
+        <button onclick = "tackle()">Tacleada</button>
+      </div>
+      <div class = "continue">
+        <button onclick = "compPokemon()">Continuar</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
